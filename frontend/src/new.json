@@ -1,0 +1,13 @@
+{
+    "Name":"AK",
+    "Age":23,
+    "Address":[{
+        "CA":"Nagpur",
+        "PA":"Pune"
+    }],
+    "Contact":[{
+        "Mobile":8421377814,
+        "Email":"sumit@gmail.com"
+    }],
+    "Position":"Dataoperator"
+}

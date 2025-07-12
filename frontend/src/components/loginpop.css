@@ -1,0 +1,111 @@
+/* src/components/LoginPopup.css
+.login-popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.login-popup {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+} */
+
+
+
+
+
+
+
+/* LoginPopup.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.unsplash.com/photo-1549921296-3a4a4fae9729'); /* 🚗 Background image */
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.5); /* fallback dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.login-popup {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-popup h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+input.form-control {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button.btn-primary {
+  background-color: #4C4CDE;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #3535c9;
+}
+
+.success-text {
+  color: green;
+  font-weight: bold;
+  animation: fade 0.3s ease-in-out;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+  animation: fade 0.3s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

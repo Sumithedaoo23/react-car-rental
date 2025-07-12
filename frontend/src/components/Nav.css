@@ -1,0 +1,148 @@
+#navii {
+  gap: 80px;
+}
+
+.nav-link-custom {
+  color: #007bff;
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 7px;
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #0056b3;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.profile-btn:hover {
+  color: #007bff;
+}
+
+.help-contact {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 280px;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  z-index: 1050;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-link {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar-link:hover {
+  color: #007bff;
+}
+
+.sidebar-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.sidebar-btn:hover {
+  background-color: #0056b3;
+}
+
+.sidebar-btn.logout {
+  background-color: #dc3545;
+}
+
+.sidebar-btn.logout:hover {
+  background-color: #a71d2a;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1040;
+}
+
+
+
+
+

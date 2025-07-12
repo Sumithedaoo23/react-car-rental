@@ -1,0 +1,51 @@
+/* src/pages/AdminLogin.css */
+.admin-login-container {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1549921296-3a4a4fae9729') no-repeat center center/cover;
+  /* backdrop-filter: blur(6px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.admin-login-box h2 {
+  margin-bottom: 20px;
+}
+
+.admin-login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.admin-login-box button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #4C4CDE;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-login-box button:hover {
+  background-color: #2f2fd1;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

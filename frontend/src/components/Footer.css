@@ -1,0 +1,50 @@
+/* #foot{
+    background-color: whitesmoke;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#foot #logo{
+    font-size: larger;
+    
+}
+#foot #phone{
+    margin-top: 30px;
+}
+#foot #phone img{
+    margin-top: 20px;
+} */
+
+
+
+
+
+
+
+.footer-wrapper {
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  padding: 40px 60px;
+  border-radius: 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#logo {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#phone {
+  margin-top: 30px;
+}
+
+.contact-image {
+  display: block;
+  margin-top: 20px;
+  width: 140px;
+}

@@ -1,0 +1,123 @@
+/* 
+.main-car-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.thumb-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumb-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spec-box {
+  background-color: #e5e5e5;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.rent-btn {
+  background-color: #4c4cde;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.rent-btn:hover {
+  background-color: #3737c2;
+}
+
+.equip-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.equip-num {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #4c4cde;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+
+
+#carss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+
+#carss h2 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #222;
+}
+
+#carss p {
+  color: #4c4cde;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#carss p:hover {
+  color: #3333aa;
+  text-decoration: underline;
+} */
+
+
+
+/* CarDetails.css */
+
+/* Image style and hover animation */
+.car-img {
+  max-width: 90%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.car-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Fade-in effect for text and layout */
+.fade-in {
+  animation: fadeIn 0.8s ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
